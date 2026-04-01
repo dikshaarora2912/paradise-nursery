@@ -1,4 +1,7 @@
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar";
+import ProductList from "./components/ProductList";
+import React, { useState } from "react";
+import "./App.css";
 
 function App() {
   const [showProductList, setShowProductList] = useState(false);
@@ -19,3 +22,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
