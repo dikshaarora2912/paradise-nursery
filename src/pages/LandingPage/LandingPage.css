@@ -1,0 +1,9 @@
+.background-image {
+  background-image: url('/path-to-your-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

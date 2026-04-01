@@ -1,46 +1,19 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+.App {
+  text-align: center;
 }
 
 .landing-container {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
-  background-size: cover;
-  background-position: center;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: #f0fff0;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  text-align: center;
-  border-radius: 10px;
-  color: white;
-}
-
-.title {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.btn {
+button {
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #388e3c;
+  margin-top: 20px;
 }
