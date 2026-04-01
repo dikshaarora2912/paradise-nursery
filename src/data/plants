@@ -1,0 +1,37 @@
+const plants = [
+  {
+    category: "Indoor Plants",
+    items: [
+      { id: 1, name: "Fiddle Leaf Fig", price: 45, image: "https://images.unsplash.com/photo-1560184897-4d0bde0c7804" },
+      { id: 2, name: "Snake Plant", price: 20, image: "https://images.unsplash.com/photo-1582494049720-b3b6ee3c77df" },
+      { id: 3, name: "Peace Lily", price: 25, image: "https://images.unsplash.com/photo-1597307810190-b81e4e82ecdc" },
+      { id: 4, name: "ZZ Plant", price: 30, image: "https://images.unsplash.com/photo-1590642913315-bf702869be6b" },
+      { id: 5, name: "Aloe Vera", price: 15, image: "https://images.unsplash.com/photo-1614627368050-70a111798a48" },
+      { id: 6, name: "Spider Plant", price: 18, image: "https://images.unsplash.com/photo-1572392119868-5d2f1525b6a8" },
+    ],
+  },
+  {
+    category: "Outdoor Plants",
+    items: [
+      { id: 7, name: "Rose Bush", price: 35, image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" },
+      { id: 8, name: "Lavender", price: 28, image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
+      { id: 9, name: "Hibiscus", price: 30, image: "https://images.unsplash.com/photo-1587502536263-8600d891a239" },
+      { id: 10, name: "Tulip", price: 22, image: "https://images.unsplash.com/photo-1551847409-98e99c6d1f7f" },
+      { id: 11, name: "Ornamental Grass", price: 20, image: "https://images.unsplash.com/photo-1587496679745-b6a4b1c04a9d" },
+      { id: 12, name: "Marigold", price: 18, image: "https://images.unsplash.com/photo-1524594157360-905b78cd8d6e" },
+    ],
+  },
+  {
+    category: "Succulents",
+    items: [
+      { id: 13, name: "Echeveria", price: 12, image: "https://images.unsplash.com/photo-1606788075763-73ed0d057cf0" },
+      { id: 14, name: "Jade Plant", price: 20, image: "https://images.unsplash.com/photo-1581568011010-1bfb81b4cc05" },
+      { id: 15, name: "Haworthia", price: 14, image: "https://images.unsplash.com/photo-1580122335808-d3a7d84836a1" },
+      { id: 16, name: "Sedum", price: 10, image: "https://images.unsplash.com/photo-1581211257770-5561f0c8d0f0" },
+      { id: 17, name: "Lithops", price: 16, image: "https://images.unsplash.com/photo-1592317273352-c0b2dbeff11b" },
+      { id: 18, name: "Crassula", price: 18, image: "https://images.unsplash.com/photo-1592878820044-1700e0d6ef19" },
+    ],
+  },
+];
+
+export default plants;

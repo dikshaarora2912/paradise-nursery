@@ -1,18 +1,29 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+import Navbar from "./components/Navbar/Navbar";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import Plants from "./pages/Plants";
+import Cart from "./pages/Cart";
 import "./App.css";
 
 function App() {
   return (
-    <div className="landing-container">
-      <div className="overlay">
-        <h1 className="title">Paradise Nursery</h1>
-        <p className="subtitle">
-          Bring nature closer to your home
-        </p>
-
-        <button className="btn">Get Started</button>
-      </div>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/plants" element={<Plants />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </Router>
+    </Provider>
   );
 }
 
