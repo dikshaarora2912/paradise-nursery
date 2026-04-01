@@ -1,19 +1,9 @@
-.App {
-  text-align: center;
-}
-
-.landing-container {
-  height: 100vh;
+.background-image {
+  background-image: url('/path-to-your-background.jpg'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* full viewport height */
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f0fff0;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 20px;
 }
